@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <title>Travel Recommendations</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/airplane-front-view.png" alt="airplane-front-view"/>
+        <h3>Travel Recommendations</h3>
+    </div>
+    <div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#mountains">About Us</a></li>
+            <li><a href="#city">Contact Us</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div>
+        <div class="search-bar">
+        <input type="text" id="query" placeholder="Search for destinations...">
+            <img class="search" src="https://img.icons8.com/ios-glyphs/30/search--v1.png" alt="search--v1"/>
+        <button type="submit" id="search">Search</button>
+            <button type="submit" id="clear">Clear</button>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="socials">
+        <div class="line"></div>
+        <div class="socials-icons">
+            <a href="https://www.facebook.com/"><img width="30" height="30" fill="#fffff" src="https://img.icons8.com/sf-black-filled/64/facebook.png" alt="facebook"/></a>
+            <a href="https://www.instagram.com/"><img width="30" height="30" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+            <a href="https://twitter.com/"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/twitterx--v2.png" alt="twitterx--v2"/></a>
+            <a href="https://www.linkedin.com/"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/linkedin-2.png" alt="linkedin-2"/></a>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>EXPLORE DREAM DESTINATION</h1>
+        <p>It encourages exploration of unfamiliar territories , embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder</p>
+        <button class="explore-button">Explore Now</button>
+    </div>
+    <div class="search-results">
+
+        <div class="results">
+            <!-- Results will be populated here by JavaScript -->
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer-content">
+
+    </div>
+</footer>
+<script src="travel_recommendation.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
